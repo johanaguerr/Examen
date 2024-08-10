@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #ccff00; 
+    height: 20%;
+}
+
+.top-bar {
+    background-color: #ffff66; 
+    height: 10%;
+    margin: 0 5%;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    background-color: #0000ff; 
+}
+
+.content {
+    background-color: #ccffff; 
+    width: 75%;
+    margin: 5%;
+}
+
+.sidebar {
+    background-color: #00ffff; 
+    width: 20%;
+    margin: 5% 5% 5% 0;
+}
+
+.footer {
+    background-color: #ff6600; 
+    height: 10%;
+}
